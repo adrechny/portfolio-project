@@ -96,3 +96,23 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 576px) {
+  .d-sm-block {
+    display: none;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .primary-link {
+    text-align: center;
+    display: block;
+    margin: 0 20px;
+  }
+  p {
+    text-align: center;
+  }
+}
